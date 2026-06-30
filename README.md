@@ -1,1 +1,38 @@
-# my-networking-journey
+# My Networking Journey
+
+Welcome to my repository! I am learning computer networks from scratch (zero level).
+> Khush-aamdeed! Main computer networks ko buniyaadi satah se bilkul shuru se seekh raha hoon.
+
+Here I will upload my daily study notes and small analysis tasks.
+> Yahan main apne rozana ke study notes aur chote analysis tasks upload karunga.
+
+The notes are in both simple English and clear Roman Urdu so I can understand easily.
+> Yeh notes aasan English aur saaf Roman Urdu dono mein hain taake samajhne mein aasaani ho.
+
+---
+
+## Repository Structure (Roadmap)
+> Repository ka dhaancha aur safar
+
+Inside this repository, you will find daily folders like this:
+> Is repository ke andar aapko rozana ke hisab se folders milenge:
+
+* **`day-01/`**: Computer Network Architecture (LAN, WAN, Topologies)
+  > Network ka buniyaadi dhaancha aur topologies.
+* **`day-02/`**: Binary Logic and IP Addressing basics (IPv4, Octets)
+  > Binary logic aur IP address ki buniyaadi baatein.
+
+---
+
+## My Goals
+> Mere buniyaadi maqasid
+
+1. Understand how the internet actually works.
+   > Yeh samajhna ke internet buniyaadi taur par kaise kaam karta hai.
+2. Build elite analytical thinking for network design.
+   > Network design karne ke liye behtareen analytical dimaag banana.
+3. Keep learning daily and maintain my GitHub contribution graph green!
+   > Rozana seekhna aur apne GitHub contribution graph ko hara-bhara rakhna!
+
+---
+*Follow my journey and feel free to check my daily progress!*
