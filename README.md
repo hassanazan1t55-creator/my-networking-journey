@@ -18,9 +18,10 @@ Inside this repository, you will find daily folders like this:
 > Is repository ke andar aapko rozana ke hisab se folders milenge:
 
 * **`day-01/`**: Computer Network Architecture (LAN, WAN, Topologies)
-  > Network ka buniyaadi dhaancha aur topologies.
+> Network ka buniyaadi dhaancha aur topologies.
+
 * **`day-02/`**: Binary Logic and IP Addressing basics (IPv4, Octets)
-  > Binary logic aur IP address ki buniyaadi baatein.
+> Binary logic aur IP address ki buniyaadi baatein.
 
 ---
 
@@ -28,11 +29,13 @@ Inside this repository, you will find daily folders like this:
 > Mere buniyaadi maqasid
 
 1. Understand how the internet actually works.
-   > Yeh samajhna ke internet buniyaadi taur par kaise kaam karta hai.
+> Yeh samajhna ke internet buniyaadi taur par kaise kaam karta hai.
+
 2. Build elite analytical thinking for network design.
-   > Network design karne ke liye behtareen analytical dimaag banana.
+> Network design karne ke liye behtareen analytical dimaag banana.
+
 3. Keep learning daily and maintain my GitHub contribution graph green!
-   > Rozana seekhna aur apne GitHub contribution graph ko hara-bhara rakhna!
+> Rozana seekhna aur apne GitHub contribution graph ko hara-bhara rakhna!
 
 ---
 *Follow my journey and feel free to check my daily progress!*
