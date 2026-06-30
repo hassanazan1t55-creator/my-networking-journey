@@ -23,6 +23,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-02/`**: Binary Logic and IP Addressing basics (IPv4, Octets)
 > Binary logic aur IP address ki buniyaadi baatein.
 
+* **`day-03/`**: IPv4 Architecture and IP Classes (Network vs Host ID, Switch logic)
+> IPv4 ka dhaancha, IP classes ki ranges aur Switch ka buniyaadi kaam.
+
 ---
 
 ## My Goals
