@@ -26,6 +26,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-03/`**: IPv4 Architecture and IP Classes (Network vs Host ID, Switch logic)
 > IPv4 ka dhaancha, IP classes ki ranges aur Switch ka buniyaadi kaam.
 
+* **`day-04/`**: Subnet Mask and CIDR Notation (AND Gate logic, /16 short-cut)
+> Subnet mask ka mathematical logic aur CIDR notation ka gehra postmortem.
+
 ---
 
 ## My Goals
