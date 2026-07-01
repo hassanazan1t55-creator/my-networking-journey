@@ -32,6 +32,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-05/`**: Public IP vs Private IP (Global vs Local ranges, Fast-Scan short-cuts)
 > Public aur Private IP ka farq, unki ranges ko yaad rakhne ke elite short-cuts.
 
+* **`day-06/`**: NAT and PAT Concepts (Network Address Translation, NAT Table, Port logic)
+> NAT ka buniyaadi jadoo, PAT ka logic aur packets ki translation ka poora process.
+
 ---
 
 ## My Goals
