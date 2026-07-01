@@ -41,6 +41,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-08/`**: OSI Model Mastery (7 Layers Blueprint, Hacker's Mindset, Attacking Layers 1-7)
 > OSI model ka gehra postmortem, har layer ka faida aur hacker ke dimaag se attacks ka mixture.
 
+* **`day-09/`**: Ports & Protocols Mastery (65,535 Ports, HTTP/HTTPS/FTP/SSH, Port States)
+> Computer ke 65,535 darwazon ka deep analysis, hacker ka scanning tricks, aur defensive security.
+
 ---
 
 ## My Goals
