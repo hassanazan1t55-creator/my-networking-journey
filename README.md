@@ -49,8 +49,8 @@ Inside this repository, you will find daily folders like this:
 2. Build elite analytical thinking for network design.
 > Network design karne ke liye behtareen analytical dimaag banana.
 
-3. Keep learning daily and maintain my GitHub contribution graph green!
-> Rozana seekhna aur apne GitHub contribution graph ko hara-bhara rakhna!
+3. Master networking to become an elite Cybersecurity Expert.
+> Networks par mukammal uboor hasil karna taake aage chal kar ek behtareen Cybersecurity Expert ban sakoon.
 
----
-*Follow my journey and feel free to check my daily progress!*
+4. Keep learning daily and maintain my GitHub contribution graph green!
+> Rozana seekhna aur apne GitHub contribution graph ko hara-bhara rakhna!
