@@ -44,6 +44,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-09/`**: Ports & Protocols Mastery (65,535 Ports, HTTP/HTTPS/FTP/SSH, Port States)
 > Computer ke 65,535 darwazon ka deep analysis, hacker ka scanning tricks, aur defensive security.
 
+* **`day-10/`**: DHCP (Dynamic Host Configuration Protocol)  DORA Process, Attacks & Defense
+> DHCP ka automatic IP baantne wala system, DORA process, Starvation aur Spoofing attacks, aur DHCP Snooping defense.
+
 ---
 
 ## My Goals
