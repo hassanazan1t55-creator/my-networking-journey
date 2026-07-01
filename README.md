@@ -29,6 +29,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-04/`**: Subnet Mask and CIDR Notation (AND Gate logic, /16 short-cut)
 > Subnet mask ka mathematical logic aur CIDR notation ka gehra postmortem.
 
+* **`day-05/`**: Public IP vs Private IP (Global vs Local ranges, Fast-Scan short-cuts)
+> Public aur Private IP ka farq, unki ranges ko yaad rakhne ke elite short-cuts.
+
 ---
 
 ## My Goals
