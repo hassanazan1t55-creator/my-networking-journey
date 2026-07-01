@@ -35,6 +35,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-06/`**: NAT and PAT Concepts (Network Address Translation, NAT Table, Port logic)
 > NAT ka buniyaadi jadoo, PAT ka logic aur packets ki translation ka poora process.
 
+* **`day-07/`**: Default Gateway (Local vs Internet traffic routing, CMD troubleshooting)
+> Default gateway ka buniyaadi kaam, internet par jaane ka main rasta aur commands se troubleshooting.
+
 ---
 
 ## My Goals
