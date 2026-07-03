@@ -65,6 +65,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-16/`**: Routing Protocols — OSPF & BGP (IGP vs EGP, Dijkstra Algorithm, BGP Hijacking, RPKI)
 > Routing protocols ka system, OSPF vs BGP ka farq, Dijkstra Algorithm, BGP Hijacking attack, aur RPKI defense.
 
+* **`day-17/`**: NAT & PAT — IPs Ka Asli Jadoo (Private/Public IPs, PAT, NAT Firewall, Phishing Bypass)
+> NAT aur PAT ka system, Private vs Public IPs, PAT security, NAT as firewall, aur Phishing bypass logic.
+
 ---
 
 ## My Goals
