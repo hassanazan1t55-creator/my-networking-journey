@@ -59,6 +59,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-14/`**: Firewalls & IDPS — Network Ke Asli Security Guards (Packet Filtering, Stateful, IDS vs IPS)
 > Firewalls ki types, IDS vs IPS ka farq, Fragmentation attack, aur Deep Packet Inspection defense.
 
+* **`day-15/`**: VLANs (Virtual Local Area Networks) — VLAN ID, Access/Trunk Ports, VLAN Hopping
+> VLANs ka virtual network system, VLAN ID, Access vs Trunk Ports, 802.1Q Tagging, aur VLAN Hopping attack.
+
 ---
 
 ## My Goals
