@@ -56,6 +56,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-13/`**: Wi-Fi Networking (SSID, BSSID, WPA2/WPA3, 4-Way Handshake, MAC Spoofing)
 > Wi-Fi ka system, SSID/BSSID, 4-Way Handshake, Deauth attack, aur MAC Spoofing ka logic.
 
+* **`day-14/`**: Firewalls & IDPS — Network Ke Asli Security Guards (Packet Filtering, Stateful, IDS vs IPS)
+> Firewalls ki types, IDS vs IPS ka farq, Fragmentation attack, aur Deep Packet Inspection defense.
+
 ---
 
 ## My Goals
