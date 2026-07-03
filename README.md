@@ -62,6 +62,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-15/`**: VLANs (Virtual Local Area Networks) — VLAN ID, Access/Trunk Ports, VLAN Hopping
 > VLANs ka virtual network system, VLAN ID, Access vs Trunk Ports, 802.1Q Tagging, aur VLAN Hopping attack.
 
+* **`day-16/`**: Routing Protocols — OSPF & BGP (IGP vs EGP, Dijkstra Algorithm, BGP Hijacking, RPKI)
+> Routing protocols ka system, OSPF vs BGP ka farq, Dijkstra Algorithm, BGP Hijacking attack, aur RPKI defense.
+
 ---
 
 ## My Goals
