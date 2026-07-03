@@ -53,6 +53,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-12/`**: ICMP & Ping — Network Ka Doctor (Ping, Traceroute, Attacks & Defense)
 > ICMP protocol, Ping aur Traceroute ka kaam, Ping of Death, Smurf Attack, aur firewall defense.
 
+* **`day-13/`**: Wi-Fi Networking (SSID, BSSID, WPA2/WPA3, 4-Way Handshake, MAC Spoofing)
+> Wi-Fi ka system, SSID/BSSID, 4-Way Handshake, Deauth attack, aur MAC Spoofing ka logic.
+
 ---
 
 ## My Goals
