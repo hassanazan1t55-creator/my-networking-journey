@@ -50,6 +50,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-11/`**: DNS (Domain Name System) — Internet Ki Phonebook, Records & Attacks
 > DNS ka phonebook system, query process, A/MX/TXT records, DNS Spoofing, aur DNSSEC defense.
 
+* **`day-12/`**: ICMP & Ping — Network Ka Doctor (Ping, Traceroute, Attacks & Defense)
+> ICMP protocol, Ping aur Traceroute ka kaam, Ping of Death, Smurf Attack, aur firewall defense.
+
 ---
 
 ## My Goals
