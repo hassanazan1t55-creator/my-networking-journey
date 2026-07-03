@@ -47,6 +47,9 @@ Inside this repository, you will find daily folders like this:
 * **`day-10/`**: DHCP (Dynamic Host Configuration Protocol)  DORA Process, Attacks & Defense
 > DHCP ka automatic IP baantne wala system, DORA process, Starvation aur Spoofing attacks, aur DHCP Snooping defense.
 
+* **`day-11/`**: DNS (Domain Name System) — Internet Ki Phonebook, Records & Attacks
+> DNS ka phonebook system, query process, A/MX/TXT records, DNS Spoofing, aur DNSSEC defense.
+
 ---
 
 ## My Goals
