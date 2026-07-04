@@ -68,8 +68,7 @@ Inside this repository, you will find daily folders like this:
 * **`day-17/`**: NAT & PAT — IPs Ka Asli Jadoo (Private/Public IPs, PAT, NAT Firewall, Phishing Bypass)
 > NAT aur PAT ka system, Private vs Public IPs, PAT security, NAT as firewall, aur Phishing bypass logic.
 
-* **`day-18/`**: ARP Spoofing — Switch Ko Pagal Banana (ARP Protocol, MITM Attack, DAI Defense, LAN vs WAN)
-> ARP protocol, ARP Spoofing attack, Man-in-the-Middle logic, DAI security feature, aur LAN vs WAN ka farq.
+* [day-18](./day-18) : ARP Spoofing — Switch Ko Pagal Banana
 
 * **`day-19/`**: MAC Flooding — Switch Ki Memory Ko Full Karna (CAM Table, Hub Mode, Port Security)
 > MAC Flooding attack, CAM Table overflow, Hub Mode fail-open, aur Port Security defense.
