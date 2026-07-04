@@ -76,6 +76,9 @@ Inside this repository, you will find daily folders like this:
 
 * **`day-20/`**: Wireshark & Packet Analysis — Network Ka X-Ray Machine (Packet Sniffing, HTTP vs HTTPS)
 > Wireshark tool, Packet Sniffing, Promiscuous Mode, HTTP vs HTTPS traffic analysis, aur attack detection.
+
+* **`day-21/`**: WAN Concepts — Leased Lines, MPLS & VPN (Private WAN, Label Switching, Encryption)
+> Leased Lines, MPLS aur VPN ka farq, WAN technologies, security aur cost comparison.
 ---
 
 ## My Goals
