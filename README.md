@@ -88,6 +88,9 @@ Inside this repository, you will find daily folders like this:
 
 * **`day-24/`**: Hashing vs Encryption — Passwords Ko Hack Hone Se Bachana (SHA-256, Brute Force, Collision)
 > Hashing vs Encryption ka farq, password storage, Brute Force/Dictionary attack, Hash Collision concept.
+
+* **`day-25/`**: VLAN Hopping Attacks — Switch Spoofing & Double Tagging (DTP, One-Way Attack)
+> VLAN Hopping attacks, Switch Spoofing vs Double Tagging, DTP protocol, Native VLAN weakness, aur defense.
 ---
 
 ## My Goals
