@@ -85,6 +85,9 @@ Inside this repository, you will find daily folders like this:
 
 * **`day-23/`**: Cryptography Basics — Symmetric vs Asymmetric Encryption (AES, RSA, Public/Private Keys)
 > Symmetric aur Asymmetric encryption ka farq, AES vs RSA, Public/Private Keys ka logic, aur HTTPS encryption.
+
+* **`day-24/`**: Hashing vs Encryption — Passwords Ko Hack Hone Se Bachana (SHA-256, Brute Force, Collision)
+> Hashing vs Encryption ka farq, password storage, Brute Force/Dictionary attack, Hash Collision concept.
 ---
 
 ## My Goals
