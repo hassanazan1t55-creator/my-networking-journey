@@ -82,6 +82,9 @@ Inside this repository, you will find daily folders like this:
 
 * **`day-22/`**: TCP Three-Way Handshake & Flags — SYN, ACK, RST, FIN (Stealth Scanning, SYN Flood)
 > TCP Flags, Three-Way Handshake, SYN Scan vs SYN Flood, Stealth Scanning, aur Stateful Firewall defense.
+
+* **`day-23/`**: Cryptography Basics — Symmetric vs Asymmetric Encryption (AES, RSA, Public/Private Keys)
+> Symmetric aur Asymmetric encryption ka farq, AES vs RSA, Public/Private Keys ka logic, aur HTTPS encryption.
 ---
 
 ## My Goals
