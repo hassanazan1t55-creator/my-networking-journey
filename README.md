@@ -74,6 +74,8 @@ Inside this repository, you will find daily folders like this:
 * [day-19](./day-19) : MAC Flooding — Switch Ki Memory Ko Full Karna (CAM Table, Hub Mode, Port Security)
 | MAC Flooding attack, CAM Table overflow, Hub Mode fail-open, aur Port Security defense.
 
+* **`day-20/`**: Wireshark & Packet Analysis — Network Ka X-Ray Machine (Packet Sniffing, HTTP vs HTTPS)
+> Wireshark tool, Packet Sniffing, Promiscuous Mode, HTTP vs HTTPS traffic analysis, aur attack detection.
 ---
 
 ## My Goals
