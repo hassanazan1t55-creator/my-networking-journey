@@ -79,6 +79,9 @@ Inside this repository, you will find daily folders like this:
 
 * **`day-21/`**: WAN Concepts — Leased Lines, MPLS & VPN (Private WAN, Label Switching, Encryption)
 > Leased Lines, MPLS aur VPN ka farq, WAN technologies, security aur cost comparison.
+
+* **`day-22/`**: TCP Three-Way Handshake & Flags — SYN, ACK, RST, FIN (Stealth Scanning, SYN Flood)
+> TCP Flags, Three-Way Handshake, SYN Scan vs SYN Flood, Stealth Scanning, aur Stateful Firewall defense.
 ---
 
 ## My Goals
