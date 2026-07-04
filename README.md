@@ -17,61 +17,62 @@ The notes are in both simple English and clear Roman Urdu so I can understand ea
 Inside this repository, you will find daily folders like this:
 > Is repository ke andar aapko rozana ke hisab se folders milenge:
 
-* **`day-01/`**: Computer Network Architecture (LAN, WAN, Topologies)
-> Network ka buniyaadi dhaancha aur topologies.
+* [day-01](./day-01) : Computer Network Architecture (LAN, WAN, Topologies)
+| Network ka buniyaadi dhaancha aur topologies.
 
-* **`day-02/`**: Binary Logic and IP Addressing basics (IPv4, Octets)
-> Binary logic aur IP address ki buniyaadi baatein.
+* [day-02](./day-02) : Binary Logic and IP Addressing basics (IPv4, Octets)
+| Binary logic aur IP address ki buniyaadi baatein.
 
-* **`day-03/`**: IPv4 Architecture and IP Classes (Network vs Host ID, Switch logic)
-> IPv4 ka dhaancha, IP classes ki ranges aur Switch ka buniyaadi kaam.
+* [day-03](./day-03) : IPv4 Architecture and IP Classes (Network vs Host ID, Switch logic)
+| IPv4 ka dhaancha, IP classes ki ranges aur Switch ka buniyaadi kaam.
 
-* **`day-04/`**: Subnet Mask and CIDR Notation (AND Gate logic, /16 short-cut)
-> Subnet mask ka mathematical logic aur CIDR notation ka gehra postmortem.
+* [day-04](./day-04) : Subnet Mask and CIDR Notation (AND Gate logic, /16 short-cut)
+| Subnet mask ka mathematical logic aur CIDR notation ka gehra postmortem.
 
-* **`day-05/`**: Public IP vs Private IP (Global vs Local ranges, Fast-Scan short-cuts)
-> Public aur Private IP ka farq, unki ranges ko yaad rakhne ke elite short-cuts.
+* [day-05](./day-05) : Public IP vs Private IP (Global vs Local ranges, Fast-Scan short-cuts)
+| Public aur Private IP ka farq, unki ranges ko yaad rakhne ke elite short-cuts.
 
-* **`day-06/`**: NAT and PAT Concepts (Network Address Translation, NAT Table, Port logic)
-> NAT ka buniyaadi jadoo, PAT ka logic aur packets ki translation ka poora process.
+* [day-06](./day-06) : NAT and PAT Concepts (Network Address Translation, NAT Table, Port logic)
+| NAT ka buniyaadi jadoo, PAT ka logic aur packets ki translation ka poora process.
 
-* **`day-07/`**: Default Gateway (Local vs Internet traffic routing, CMD troubleshooting)
-> Default gateway ka buniyaadi kaam, internet par jaane ka main rasta aur commands se troubleshooting.
+* [day-07](./day-07) : Default Gateway (Local vs Internet traffic routing, CMD troubleshooting)
+| Default gateway ka buniyaadi kaam, internet par jaane ka main rasta aur commands se troubleshooting.
 
-* **`day-08/`**: OSI Model Mastery (7 Layers Blueprint, Hacker's Mindset, Attacking Layers 1-7)
-> OSI model ka gehra postmortem, har layer ka faida aur hacker ke dimaag se attacks ka mixture.
+* [day-08](./day-08) : OSI Model Mastery (7 Layers Blueprint, Hacker's Mindset, Attacking Layers 1-7)
+| OSI model ka gehra postmortem, har layer ka faida aur hacker ke dimaag se attacks ka mixture.
 
-* **`day-09/`**: Ports & Protocols Mastery (65,535 Ports, HTTP/HTTPS/FTP/SSH, Port States)
-> Computer ke 65,535 darwazon ka deep analysis, hacker ka scanning tricks, aur defensive security.
+* [day-09](./day-09) : Ports & Protocols Mastery (65,535 Ports, HTTP/HTTPS/FTP/SSH, Port States)
+| Computer ke 65,535 darwazon ka deep analysis, hacker ka scanning tricks, aur defensive security.
 
-* **`day-10/`**: DHCP (Dynamic Host Configuration Protocol)  DORA Process, Attacks & Defense
-> DHCP ka automatic IP baantne wala system, DORA process, Starvation aur Spoofing attacks, aur DHCP Snooping defense.
+* [day-10](./day-10) : DHCP (Dynamic Host Configuration Protocol) DORA Process, Attacks & Defense
+| DHCP ka automatic IP baantne wala system, DORA process, Starvation aur Spoofing attacks, aur DHCP Snooping defense.
 
-* **`day-11/`**: DNS (Domain Name System) — Internet Ki Phonebook, Records & Attacks
-> DNS ka phonebook system, query process, A/MX/TXT records, DNS Spoofing, aur DNSSEC defense.
+* [day-11](./day-11) : DNS (Domain Name System) — Internet Ki Phonebook, Records & Attacks
+| DNS ka phonebook system, query process, A/MX/TXT records, DNS Spoofing, aur DNSSEC defense.
 
-* **`day-12/`**: ICMP & Ping — Network Ka Doctor (Ping, Traceroute, Attacks & Defense)
-> ICMP protocol, Ping aur Traceroute ka kaam, Ping of Death, Smurf Attack, aur firewall defense.
+* [day-12](./day-12) : ICMP & Ping — Network Ka Doctor (Ping, Traceroute, Attacks & Defense)
+| ICMP protocol, Ping aur Traceroute ka kaam, Ping of Death, Smurf Attack, aur firewall defense.
 
-* **`day-13/`**: Wi-Fi Networking (SSID, BSSID, WPA2/WPA3, 4-Way Handshake, MAC Spoofing)
-> Wi-Fi ka system, SSID/BSSID, 4-Way Handshake, Deauth attack, aur MAC Spoofing ka logic.
+* [day-13](./day-13) : Wi-Fi Networking (SSID, BSSID, WPA2/WPA3, 4-Way Handshake, MAC Spoofing)
+| Wi-Fi ka system, SSID/BSSID, 4-Way Handshake, Deauth attack, aur MAC Spoofing ka logic.
 
-* **`day-14/`**: Firewalls & IDPS — Network Ke Asli Security Guards (Packet Filtering, Stateful, IDS vs IPS)
-> Firewalls ki types, IDS vs IPS ka farq, Fragmentation attack, aur Deep Packet Inspection defense.
+* [day-14](./day-14) : Firewalls & IDPS — Network Ke Asli Security Guards (Packet Filtering, Stateful, IDS vs IPS)
+| Firewalls ki types, IDS vs IPS ka farq, Fragmentation attack, aur Deep Packet Inspection defense.
 
-* **`day-15/`**: VLANs (Virtual Local Area Networks) — VLAN ID, Access/Trunk Ports, VLAN Hopping
-> VLANs ka virtual network system, VLAN ID, Access vs Trunk Ports, 802.1Q Tagging, aur VLAN Hopping attack.
+* [day-15](./day-15) : VLANs (Virtual Local Area Networks) — VLAN ID, Access/Trunk Ports, VLAN Hopping
+| VLANs ka virtual network system, VLAN ID, Access vs Trunk Ports, 802.1Q Tagging, aur VLAN Hopping attack.
 
-* **`day-16/`**: Routing Protocols — OSPF & BGP (IGP vs EGP, Dijkstra Algorithm, BGP Hijacking, RPKI)
-> Routing protocols ka system, OSPF vs BGP ka farq, Dijkstra Algorithm, BGP Hijacking attack, aur RPKI defense.
+* [day-16](./day-16) : Routing Protocols — OSPF & BGP (IGP vs EGP, Dijkstra Algorithm, BGP Hijacking, RPKI)
+| Routing protocols ka system, OSPF vs BGP ka farq, Dijkstra Algorithm, BGP Hijacking attack, aur RPKI defense.
 
-* **`day-17/`**: NAT & PAT — IPs Ka Asli Jadoo (Private/Public IPs, PAT, NAT Firewall, Phishing Bypass)
-> NAT aur PAT ka system, Private vs Public IPs, PAT security, NAT as firewall, aur Phishing bypass logic.
+* [day-17](./day-17) : NAT & PAT — IPs Ka Asli Jadoo (Private/Public IPs, PAT, NAT Firewall, Phishing Bypass)
+| NAT aur PAT ka system, Private vs Public IPs, PAT security, NAT as firewall, aur Phishing bypass logic.
 
-* [day-18](./day-18) : ARP Spoofing — Switch Ko Pagal Banana
+* [day-18](./day-18) : ARP Spoofing — Switch Ko Pagal Banana (ARP Protocol, MITM Attack, DAI Defense, LAN vs WAN)
+| ARP protocol, ARP Spoofing attack, Man-in-the-Middle logic, DAI security feature, aur LAN vs WAN ka farq.
 
-* **`day-19/`**: MAC Flooding — Switch Ki Memory Ko Full Karna (CAM Table, Hub Mode, Port Security)
-> MAC Flooding attack, CAM Table overflow, Hub Mode fail-open, aur Port Security defense.
+* [day-19](./day-19) : MAC Flooding — Switch Ki Memory Ko Full Karna (CAM Table, Hub Mode, Port Security)
+| MAC Flooding attack, CAM Table overflow, Hub Mode fail-open, aur Port Security defense.
 
 ---
 
