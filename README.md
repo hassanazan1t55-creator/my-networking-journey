@@ -74,23 +74,23 @@ Inside this repository, you will find daily folders like this:
 * [day-19](./day-19) : MAC Flooding — Switch Ki Memory Ko Full Karna (CAM Table, Hub Mode, Port Security)
 | MAC Flooding attack, CAM Table overflow, Hub Mode fail-open, aur Port Security defense.
 
-* **`day-20/`**: Wireshark & Packet Analysis — Network Ka X-Ray Machine (Packet Sniffing, HTTP vs HTTPS)
-> Wireshark tool, Packet Sniffing, Promiscuous Mode, HTTP vs HTTPS traffic analysis, aur attack detection.
+* [day-20](./day-20) : Wireshark & Packet Analysis — Network Ka X-Ray Machine (Packet Sniffing, HTTP vs HTTPS)
+| Wireshark tool, Packet Sniffing, Promiscuous Mode, HTTP vs HTTPS traffic analysis, aur attack detection.
 
-* **`day-21/`**: WAN Concepts — Leased Lines, MPLS & VPN (Private WAN, Label Switching, Encryption)
-> Leased Lines, MPLS aur VPN ka farq, WAN technologies, security aur cost comparison.
+* [day-21](./day-21) : WAN Concepts — Leased Lines, MPLS & VPN (Private WAN, Label Switching, Encryption)
+| Leased Lines, MPLS aur VPN ka farq, WAN technologies, security aur cost comparison.
 
-* **`day-22/`**: TCP Three-Way Handshake & Flags — SYN, ACK, RST, FIN (Stealth Scanning, SYN Flood)
-> TCP Flags, Three-Way Handshake, SYN Scan vs SYN Flood, Stealth Scanning, aur Stateful Firewall defense.
+* [day-22](./day-22) : TCP Three-Way Handshake & Flags — SYN, ACK, RST, FIN (Stealth Scanning, SYN Flood)
+| TCP Flags, Three-Way Handshake, SYN Scan vs SYN Flood, Stealth Scanning, aur Stateful Firewall defense.
 
-* **`day-23/`**: Cryptography Basics — Symmetric vs Asymmetric Encryption (AES, RSA, Public/Private Keys)
-> Symmetric aur Asymmetric encryption ka farq, AES vs RSA, Public/Private Keys ka logic, aur HTTPS encryption.
+* [day-23](./day-23) : Cryptography Basics — Symmetric vs Asymmetric Encryption (AES, RSA, Public/Private Keys)
+| Symmetric aur Asymmetric encryption ka farq, AES vs RSA, Public/Private Keys ka logic, aur HTTPS encryption.
 
-* **`day-24/`**: Hashing vs Encryption — Passwords Ko Hack Hone Se Bachana (SHA-256, Brute Force, Collision)
-> Hashing vs Encryption ka farq, password storage, Brute Force/Dictionary attack, Hash Collision concept.
+* [day-24](./day-24) : Hashing vs Encryption — Passwords Ko Hack Hone Se Bachana (SHA-256, Brute Force, Collision)
+| Hashing vs Encryption ka farq, password storage, Brute Force/Dictionary attack, Hash Collision concept.
 
-* **`day-25/`**: VLAN Hopping Attacks — Switch Spoofing & Double Tagging (DTP, One-Way Attack)
-> VLAN Hopping attacks, Switch Spoofing vs Double Tagging, DTP protocol, Native VLAN weakness, aur defense.
+* [day-25](./day-25) : VLAN Hopping Attacks — Switch Spoofing & Double Tagging (DTP, One-Way Attack)
+| VLAN Hopping attacks, Switch Spoofing vs Double Tagging, DTP protocol, Native VLAN weakness, aur defense.
 ---
 
 ## My Goals
