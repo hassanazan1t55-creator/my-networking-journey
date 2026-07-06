@@ -91,6 +91,10 @@ Inside this repository, you will find daily folders like this:
 
 * [day-25](./day-25) : VLAN Hopping Attacks — Switch Spoofing & Double Tagging (DTP, One-Way Attack)
 | VLAN Hopping attacks, Switch Spoofing vs Double Tagging, DTP protocol, Native VLAN weakness, aur defense.
+
+* [day-26](./day-26): IDS/IPS Evasion — Fragmentation, Out-of-Order, Obfuscation, TTL Evasion
+> IDS/IPS bypass techniques, IP Fragmentation, Out-of-Order packets, Obfuscation, aur TTL Evasion/Insertion Attack.
+
 ---
 
 ## My Goals
