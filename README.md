@@ -1,113 +1,51 @@
 # My Networking Journey
 
-Welcome to my repository! I am learning computer networks from scratch (zero level).
-> Khush-aamdeed! Main computer networks ko buniyaadi satah se bilkul shuru se seekh raha hoon.
+Welcome to my repository! I am learning computer networks from scratch.
 
-Here I will upload my daily study notes and small analysis tasks.
-> Yahan main apne rozana ke study notes aur chote analysis tasks upload karunga.
+Here I upload my daily study notes and small analysis tasks.
 
-The notes are in both simple English and clear Roman Urdu so I can understand easily.
-> Yeh notes aasan English aur saaf Roman Urdu dono mein hain taake samajhne mein aasaani ho.
+The notes are in simple English so I can understand easily.
 
 ---
 
 ## Repository Structure (Roadmap)
-> Repository ka dhaancha aur safar
 
-Inside this repository, you will find daily folders like this:
-> Is repository ke andar aapko rozana ke hisab se folders milenge:
-
-* [day-01](./day-01) : Computer Network Architecture (LAN, WAN, Topologies)
-| Network ka buniyaadi dhaancha aur topologies.
-
-* [day-02](./day-02) : Binary Logic and IP Addressing basics (IPv4, Octets)
-| Binary logic aur IP address ki buniyaadi baatein.
-
-* [day-03](./day-03) : IPv4 Architecture and IP Classes (Network vs Host ID, Switch logic)
-| IPv4 ka dhaancha, IP classes ki ranges aur Switch ka buniyaadi kaam.
-
-* [day-04](./day-04) : Subnet Mask and CIDR Notation (AND Gate logic, /16 short-cut)
-| Subnet mask ka mathematical logic aur CIDR notation ka gehra postmortem.
-
-* [day-05](./day-05) : Public IP vs Private IP (Global vs Local ranges, Fast-Scan short-cuts)
-| Public aur Private IP ka farq, unki ranges ko yaad rakhne ke elite short-cuts.
-
-* [day-06](./day-06) : NAT and PAT Concepts (Network Address Translation, NAT Table, Port logic)
-| NAT ka buniyaadi jadoo, PAT ka logic aur packets ki translation ka poora process.
-
-* [day-07](./day-07) : Default Gateway (Local vs Internet traffic routing, CMD troubleshooting)
-| Default gateway ka buniyaadi kaam, internet par jaane ka main rasta aur commands se troubleshooting.
-
-* [day-08](./day-08) : OSI Model Mastery (7 Layers Blueprint, Hacker's Mindset, Attacking Layers 1-7)
-| OSI model ka gehra postmortem, har layer ka faida aur hacker ke dimaag se attacks ka mixture.
-
-* [day-09](./day-09) : Ports & Protocols Mastery (65,535 Ports, HTTP/HTTPS/FTP/SSH, Port States)
-| Computer ke 65,535 darwazon ka deep analysis, hacker ka scanning tricks, aur defensive security.
-
-* [day-10](./day-10) : DHCP (Dynamic Host Configuration Protocol) DORA Process, Attacks & Defense
-| DHCP ka automatic IP baantne wala system, DORA process, Starvation aur Spoofing attacks, aur DHCP Snooping defense.
-
-* [day-11](./day-11) : DNS (Domain Name System) — Internet Ki Phonebook, Records & Attacks
-| DNS ka phonebook system, query process, A/MX/TXT records, DNS Spoofing, aur DNSSEC defense.
-
-* [day-12](./day-12) : ICMP & Ping — Network Ka Doctor (Ping, Traceroute, Attacks & Defense)
-| ICMP protocol, Ping aur Traceroute ka kaam, Ping of Death, Smurf Attack, aur firewall defense.
-
-* [day-13](./day-13) : Wi-Fi Networking (SSID, BSSID, WPA2/WPA3, 4-Way Handshake, MAC Spoofing)
-| Wi-Fi ka system, SSID/BSSID, 4-Way Handshake, Deauth attack, aur MAC Spoofing ka logic.
-
-* [day-14](./day-14) : Firewalls & IDPS — Network Ke Asli Security Guards (Packet Filtering, Stateful, IDS vs IPS)
-| Firewalls ki types, IDS vs IPS ka farq, Fragmentation attack, aur Deep Packet Inspection defense.
-
-* [day-15](./day-15) : VLANs (Virtual Local Area Networks) — VLAN ID, Access/Trunk Ports, VLAN Hopping
-| VLANs ka virtual network system, VLAN ID, Access vs Trunk Ports, 802.1Q Tagging, aur VLAN Hopping attack.
-
-* [day-16](./day-16) : Routing Protocols — OSPF & BGP (IGP vs EGP, Dijkstra Algorithm, BGP Hijacking, RPKI)
-| Routing protocols ka system, OSPF vs BGP ka farq, Dijkstra Algorithm, BGP Hijacking attack, aur RPKI defense.
-
-* [day-17](./day-17) : NAT & PAT — IPs Ka Asli Jadoo (Private/Public IPs, PAT, NAT Firewall, Phishing Bypass)
-| NAT aur PAT ka system, Private vs Public IPs, PAT security, NAT as firewall, aur Phishing bypass logic.
-
-* [day-18](./day-18) : ARP Spoofing — Switch Ko Pagal Banana (ARP Protocol, MITM Attack, DAI Defense, LAN vs WAN)
-| ARP protocol, ARP Spoofing attack, Man-in-the-Middle logic, DAI security feature, aur LAN vs WAN ka farq.
-
-* [day-19](./day-19) : MAC Flooding — Switch Ki Memory Ko Full Karna (CAM Table, Hub Mode, Port Security)
-| MAC Flooding attack, CAM Table overflow, Hub Mode fail-open, aur Port Security defense.
-
-* [day-20](./day-20) : Wireshark & Packet Analysis — Network Ka X-Ray Machine (Packet Sniffing, HTTP vs HTTPS)
-| Wireshark tool, Packet Sniffing, Promiscuous Mode, HTTP vs HTTPS traffic analysis, aur attack detection.
-
-* [day-21](./day-21) : WAN Concepts — Leased Lines, MPLS & VPN (Private WAN, Label Switching, Encryption)
-| Leased Lines, MPLS aur VPN ka farq, WAN technologies, security aur cost comparison.
-
-* [day-22](./day-22) : TCP Three-Way Handshake & Flags — SYN, ACK, RST, FIN (Stealth Scanning, SYN Flood)
-| TCP Flags, Three-Way Handshake, SYN Scan vs SYN Flood, Stealth Scanning, aur Stateful Firewall defense.
-
-* [day-23](./day-23) : Cryptography Basics — Symmetric vs Asymmetric Encryption (AES, RSA, Public/Private Keys)
-| Symmetric aur Asymmetric encryption ka farq, AES vs RSA, Public/Private Keys ka logic, aur HTTPS encryption.
-
-* [day-24](./day-24) : Hashing vs Encryption — Passwords Ko Hack Hone Se Bachana (SHA-256, Brute Force, Collision)
-| Hashing vs Encryption ka farq, password storage, Brute Force/Dictionary attack, Hash Collision concept.
-
-* [day-25](./day-25) : VLAN Hopping Attacks — Switch Spoofing & Double Tagging (DTP, One-Way Attack)
-| VLAN Hopping attacks, Switch Spoofing vs Double Tagging, DTP protocol, Native VLAN weakness, aur defense.
-
-* [day-26](./day-26): IDS/IPS Evasion — Fragmentation, Out-of-Order, Obfuscation, TTL Evasion
-> IDS/IPS bypass techniques, IP Fragmentation, Out-of-Order packets, Obfuscation, aur TTL Evasion/Insertion Attack.
+* **`day-01/`** : Computer Network Architecture (LAN, WAN, Topologies)
+* **`day-02/`** : Binary Logic and IP Addressing basics (IPv4, Octets)
+* **`day-03/`** : IPv4 Architecture and IP Classes (Network vs Host ID, Switch logic)
+* **`day-04/`** : Subnet Mask and CIDR Notation (AND Gate logic, /16 short-cut)
+* **`day-05/`** : Public IP vs Private IP (Global vs Local ranges, Fast-Scan short-cuts)
+* **`day-06/`** : NAT and PAT Concepts (Network Address Translation, NAT Table, Port logic)
+* **`day-07/`** : Default Gateway (Local vs Internet traffic routing, CMD troubleshooting)
+* **`day-08/`** : OSI Model Mastery (7 Layers Blueprint, Hacker's Mindset)
+* **`day-09/`** : Ports & Protocols Mastery (65,535 Ports, HTTP/HTTPS/FTP/SSH)
+* **`day-10/`** : DHCP — DORA Process, Attacks & Defense
+* **`day-11/`** : DNS — Internet Ki Phonebook, Records & Attacks
+* **`day-12/`** : ICMP & Ping — Network Ka Doctor
+* **`day-13/`** : Wi-Fi Networking — SSID, BSSID, WPA2/WPA3, 4-Way Handshake
+* **`day-14/`** : Firewalls & IDPS — Packet Filtering, Stateful, IDS vs IPS
+* **`day-15/`** : VLANs — VLAN ID, Access/Trunk Ports, VLAN Hopping
+* **`day-16/`** : Routing Protocols — OSPF & BGP, Dijkstra, BGP Hijacking
+* **`day-17/`** : NAT & PAT — Private/Public IPs, PAT, NAT Firewall
+* **`day-18/`** : ARP Spoofing — ARP Protocol, MITM Attack, DAI Defense
+* **`day-19/`** : MAC Flooding — CAM Table, Hub Mode, Port Security
+* **`day-20/`** : Wireshark & Packet Analysis — Packet Sniffing, HTTP vs HTTPS
+* **`day-21/`** : WAN Concepts — Leased Lines, MPLS, VPN
+* **`day-22/`** : TCP Three-Way Handshake & Flags — SYN, ACK, RST, FIN
+* **`day-23/`** : Cryptography Basics — Symmetric vs Asymmetric Encryption
+* **`day-24/`** : Hashing vs Encryption — Password Storage, SHA-256
+* **`day-25/`** : VLAN Hopping Attacks — Switch Spoofing, Double Tagging
+* **`day-26/`** : IDS/IPS Evasion — Fragmentation, Out-of-Order, Obfuscation
 
 ---
 
 ## My Goals
-> Mere buniyaadi maqasid
 
 1. Understand how the internet actually works.
-> Yeh samajhna ke internet buniyaadi taur par kaise kaam karta hai.
-
 2. Build elite analytical thinking for network design.
-> Network design karne ke liye behtareen analytical dimaag banana.
-
 3. Master networking to become an elite Cybersecurity Expert.
-> Networks par mukammal uboor hasil karna taake aage chal kar ek behtareen Cybersecurity Expert ban sakoon.
-
 4. Keep learning daily and maintain my GitHub contribution graph green!
-> Rozana seekhna aur apne GitHub contribution graph ko hara-bhara rakhna!
+
+---
+
+*Follow my journey and feel free to check my daily progress!*
