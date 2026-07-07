@@ -35,7 +35,8 @@ The notes are in simple English so I can understand easily.
 * **`day-23/`** : Cryptography Basics — Symmetric vs Asymmetric Encryption (AES, RSA, Public/Private Keys)
 * **`day-24/`** : Hashing vs Encryption — Secure Password Storage (SHA-256, Brute Force, Hash Collision)
 * **`day-25/`** : VLAN Hopping Attacks — Cross-Segment Exploitation (Switch Spoofing, Double Tagging, One-Way Attack)
-
+* **`day-26/`** : IDS/IPS Evasion — Bypassing Network Security Controls (Fragmentation, Out-of-Order, Obfuscation, TTL Evasion)
+* **`day-27/`** : Advanced Network Scanning — Nmap Stealth Scans & Packet Analysis (SYN, Null, Xmas Scans, FIN/PSH/URG Flags)
 ---
 
 ## My Goals
