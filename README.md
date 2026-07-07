@@ -26,16 +26,15 @@ The notes are in simple English so I can understand easily.
 * **`day-14/`** : Firewalls & IDPS — Network Security Infrastructure (Packet Filtering, Stateful, IDS vs IPS)
 * **`day-15/`** : VLANs — Virtual Network Segmentation (VLAN ID, Access/Trunk Ports, VLAN Hopping)
 * **`day-16/`** : Routing Protocols — The Internet's Global Navigation System (OSPF, BGP, Dijkstra, BGP Hijacking, RPKI)
-* **`day-17/`** : NAT & PAT — Private/Public IPs, PAT, NAT Firewall
-* **`day-18/`** : ARP Spoofing — ARP Protocol, MITM Attack, DAI Defense
-* **`day-19/`** : MAC Flooding — CAM Table, Hub Mode, Port Security
-* **`day-20/`** : Wireshark & Packet Analysis — Packet Sniffing, HTTP vs HTTPS
-* **`day-21/`** : WAN Concepts — Leased Lines, MPLS, VPN
-* **`day-22/`** : TCP Three-Way Handshake & Flags — SYN, ACK, RST, FIN
-* **`day-23/`** : Cryptography Basics — Symmetric vs Asymmetric Encryption
-* **`day-24/`** : Hashing vs Encryption — Password Storage, SHA-256
-* **`day-25/`** : VLAN Hopping Attacks — Switch Spoofing, Double Tagging
-* **`day-26/`** : IDS/IPS Evasion — Fragmentation, Out-of-Order, Obfuscation
+* **`day-17/`** : NAT & PAT — The Magic of IP Address Translation (Private/Public IPs, PAT, NAT Firewall, Phishing Bypass)
+* **`day-18/`** : ARP Spoofing — Man-in-the-Middle Attack Fundamentals (ARP Protocol, MITM, DAI Defense, LAN vs WAN)
+* **`day-19/`** : MAC Flooding — CAM Table Overflow Attack (MAC Table, Hub Mode, Port Security)
+* **`day-20/`** : Wireshark & Packet Analysis — The Network X-Ray Machine (Packet Sniffing, Promiscuous Mode, HTTP vs HTTPS)
+* **`day-21/`** : WAN Concepts — Leased Lines, MPLS & VPN (Private WAN, Label Switching, Encryption)
+* **`day-22/`** : TCP Three-Way Handshake & Flags — Stealth Scanning Fundamentals (SYN, ACK, RST, FIN, SYN Scan vs SYN Flood)
+* **`day-23/`** : Cryptography Basics — Symmetric vs Asymmetric Encryption (AES, RSA, Public/Private Keys)
+* **`day-24/`** : Hashing vs Encryption — Secure Password Storage (SHA-256, Brute Force, Hash Collision)
+* **`day-25/`** : VLAN Hopping Attacks — Cross-Segment Exploitation (Switch Spoofing, Double Tagging, One-Way Attack)
 
 ---
 
