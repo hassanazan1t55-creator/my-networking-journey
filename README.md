@@ -38,6 +38,7 @@ The notes are in simple English so I can understand easily.
 * **`day-26/`** : IDS/IPS Evasion — Bypassing Network Security Controls (Fragmentation, Out-of-Order, Obfuscation, TTL Evasion)
 * **`day-27/`** : Advanced Network Scanning — Nmap Stealth Scans & Packet Analysis (SYN, Null, Xmas Scans, FIN/PSH/URG Flags)
 * **`day-28/`** : OS Fingerprinting & Version Detection — Nmap's Reconnaissance Techniques (TTL Analysis, 9 Probes, Banner Grabbing)
+* **`day-29/`** : IP Spoofing & MAC Spoofing — Identity Manipulation on the Network (Layer 2 vs Layer 3, DoS Attacks, Ingress Filtering)
 ---
 
 ## My Goals
