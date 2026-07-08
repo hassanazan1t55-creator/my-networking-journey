@@ -47,6 +47,14 @@ The notes are in simple English so I can understand easily.
 3. Master networking to become an elite Cybersecurity Expert.
 4. Keep learning daily and maintain my GitHub contribution graph green!
 
----
+----
+
+## How to Navigate These Notes
+
+Each folder represents a daily study session containing Markdown (`.md`) documentation and notes:
+
+1. Click on any daily folder (e.g., `day-20` for Wireshark & Packet Analysis).
+2. Open the `.md` file inside to read detailed concepts, commands, and security analysis.
+
 
 *Follow my journey and feel free to check my daily progress!*
