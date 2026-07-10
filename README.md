@@ -40,6 +40,7 @@ The notes are in simple English so I can understand easily.
 * **`day-28/`** : OS Fingerprinting & Version Detection — Nmap's Reconnaissance Techniques (TTL Analysis, 9 Probes, Banner Grabbing)
 * **`day-29/`** : IP Spoofing & MAC Spoofing — Identity Manipulation on the Network (Layer 2 vs Layer 3, DoS Attacks, Ingress Filtering)
 * **`day-30/`** : Man-in-the-Middle (MITM) — The Art of Traffic Interception (ARP Poisoning, SSL Stripping, Bettercap/Ettercap, Hacker vs Hacker)
+* **`day-31/`** : Session Hijacking — TCP Sequence Prediction Attack (TCP Hijacking, Cookie Stealing, Desynchronization, ACK Storm)
 ---
 
 ## My Goals
