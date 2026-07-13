@@ -42,6 +42,7 @@ The notes are in simple English so I can understand easily.
 * **`day-30/`** : Man-in-the-Middle (MITM) — The Art of Traffic Interception (ARP Poisoning, SSL Stripping, Bettercap/Ettercap, Hacker vs Hacker)
 * **`day-31/`** : Session Hijacking — TCP Sequence Prediction Attack (TCP Hijacking, Cookie Stealing, Desynchronization, ACK Storm)
 * **`day-32/`** : Web Application Security — SQL Injection Logic (Web Architecture, Authentication Bypass, Data Theft, Prepared Statements)
+* **`day-33/`** : Cross-Site Scripting (XSS) — Browser-Level Code Execution Logic (Reflected, Stored, DOM-Based, Output Encoding)
 ---
 
 ## My Goals
