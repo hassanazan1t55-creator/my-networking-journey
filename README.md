@@ -43,6 +43,7 @@ The notes are in simple English so I can understand easily.
 * **`day-31/`** : Session Hijacking — TCP Sequence Prediction Attack (TCP Hijacking, Cookie Stealing, Desynchronization, ACK Storm)
 * **`day-32/`** : Web Application Security — SQL Injection Logic (Web Architecture, Authentication Bypass, Data Theft, Prepared Statements)
 * **`day-33/`** : Cross-Site Scripting (XSS) — Browser-Level Code Execution Logic (Reflected, Stored, DOM-Based, Output Encoding)
+* **`day-34/`** : Cross-Site Request Forgery (CSRF) — Browser Identity Theft Logic (Anti-CSRF Tokens, SameSite Cookies)
 ---
 
 ## My Goals
