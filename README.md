@@ -44,6 +44,7 @@ The notes are in simple English so I can understand easily.
 * **`day-32/`** : Web Application Security — SQL Injection Logic (Web Architecture, Authentication Bypass, Data Theft, Prepared Statements)
 * **`day-33/`** : Cross-Site Scripting (XSS) — Browser-Level Code Execution Logic (Reflected, Stored, DOM-Based, Output Encoding)
 * **`day-34/`** : Cross-Site Request Forgery (CSRF) — Browser Identity Theft Logic (Anti-CSRF Tokens, SameSite Cookies)
+* **`day-35/`** : IDOR & Broken Access Control — Authorization Logic Flaws (Authentication vs Authorization, Session-Based Access Control, UUIDs)
 ---
 
 ## My Goals
