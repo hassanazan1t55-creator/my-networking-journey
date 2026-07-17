@@ -46,6 +46,7 @@ The notes are in simple English so I can understand easily.
 * **`day-34/`** : Cross-Site Request Forgery (CSRF) — Browser Identity Theft Logic (Anti-CSRF Tokens, SameSite Cookies)
 * **`day-35/`** : IDOR & Broken Access Control — Authorization Logic Flaws (Authentication vs Authorization, Session-Based Access Control, UUIDs)
 * **`day-36/`** : Secure Architecture — Defense Against Command Injection & SSRF (Whitelisting, Least Privilege, Command Segregation, Network Isolation)
+* **`day-37/`** : PTES Framework — Professional Hacking Ka Standard (Pre-engagement, Intelligence Gathering, Threat Modeling, Exploitation, Reporting)
 ---
 
 ## My Goals
