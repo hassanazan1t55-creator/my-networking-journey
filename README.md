@@ -53,9 +53,8 @@ The notes are in simple English so I can understand easily.
 ## My Goals
 
 1. Understand how the internet actually works.
-2. Build elite analytical thinking for network design.
-3. Master networking to become an elite Cybersecurity Expert.
-4. Keep learning daily and maintain my GitHub contribution graph green!
+2. Build advance analytical thinking for network design.
+3. Keep learning daily and maintain my GitHub contribution graph green!
 
 ----
 
