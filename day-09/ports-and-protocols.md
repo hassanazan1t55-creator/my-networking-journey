@@ -2,7 +2,7 @@
 
 Today I am learning about Ports and Protocols. If the IP address is the building location, then ports are the doors to enter that building.
 
-A computer or server has 65,535 ports. Each port runs a specific type of service called a Protocol.
+TCP and UDP each have port numbers from 0 to 65,535. A port does not itself "run a protocol"; an application or service binds to a transport-layer port and uses a protocol such as HTTP, HTTPS, SSH, or DNS.
 
 ---
 
@@ -17,7 +17,7 @@ When your computer is browsing, emailing, and downloading at the same time, it u
 
 ## The Hacker's Mindset: How to Attack Ports
 
-A hacker's first step is always Port Scanning (using tools like Nmap).
+In authorized security testing, port scanning is one common reconnaissance technique. It is not literally the first step in every assessment, and scanning should only be performed against systems you are permitted to test.
 
 The hacker thinks: "I have the building's address (IP). Now let me check which of the 65,535 doors (Ports) are open, and what software is running behind them that has any weakness!"
 
@@ -116,8 +116,7 @@ After understanding the hacker's mindset, how does a good security expert defend
 **Principle 1: Close Unused Ports**
 Close all doors that are not in use. If the company doesn't need FTP, Port 21 should always be closed.
 
-**Principle 2: Change Default Ports**
-Change default ports to hide from automatic attacks. SSH's real door is Port 22. Hackers run automatic scripts attacking Port 22 on every computer. If we change SSH port from 22 to 52222, average hackers won't even know where the door is.
+**Principle 2: Do not rely on changing default ports as your main defense.** Moving SSH from 22 can reduce noisy automated scanning, but it is security through obscurity and scanners can discover the new port. Prefer strong authentication, key-based access, patching, least privilege, rate limiting, and firewall rules.
 
 **Principle 3: Use Firewalls**
 Use firewalls to set filtered state, allowing only specific (allowed) IPs to talk on those ports.
@@ -163,10 +162,9 @@ If you want to steal a user's login password (via Sniffing), which port's traffi
 ---
 
 **My Analysis:**
-- I will target **Port 80 (HTTP)**.
-- Because Port 80 has no encryption, data travels in plain text through the air or cable.
-- If any user types their password there, I can see the exact words in my scan.
-- Port 443 has encrypted data which is impossible to read.
+- In an authorized lab, HTTP traffic is generally unencrypted at the HTTP layer, so credentials sent over HTTP can be exposed to an on-path observer.
+- HTTPS uses TLS to protect the connection, so an observer normally cannot read the application data merely by capturing packets.
+- This does not mean HTTPS is magically immune to every attack; certificate validation, endpoint security, TLS configuration, and application vulnerabilities still matter.
 
 ---
 
