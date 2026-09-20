@@ -19,9 +19,9 @@ A Private IP is used inside your Local Network (LAN). Your mobile, laptop, smart
 
 ## What is a Public IP Address?
 
-A Public IP is given to your router by your ISP (Internet Service Provider). This address is completely unique across the entire world.
+A Public IP is a globally routable address used to identify an interface or service on the public Internet. It is normally assigned by an ISP, cloud provider, hosting provider, or another network operator. Public addresses must be globally unique within the Internet routing system.
 
-**The Global Rule:** All websites (like Google, Facebook) and core servers run on Public IPs. Any packet traveling over the internet must use a Public IP.
+**Important:** Publicly reachable Internet services normally use globally routable addresses, but not every server or website directly exposes a public IPv4 address. Many services sit behind load balancers, reverse proxies, CDNs, NAT, or other gateways. Internet traffic also uses IPv6, where private/local addressing rules differ from IPv4.
 
 - **The Passport Number Analogy:** A passport number is globally unique. When you travel abroad, your identity is verified by your official passport number, not your nickname.
 - **The Shop Address Analogy:** If you have a physical shop with an official address like "Shop No. 4, Liberty Market, Lahore", anyone from anywhere in the world can send a courier to that exact location.
@@ -30,7 +30,7 @@ A Public IP is given to your router by your ISP (Internet Service Provider). Thi
 
 ## Private IP Ranges (Elite Memory)
 
-Networking scientists permanently reserved specific ranges in Class A, B, and C as "Private". Anything outside these ranges is automatically a Public IP.
+The IPv4 private ranges defined by RFC 1918 are reserved for use inside private networks. Addresses outside these ranges are not automatically public: other special-purpose ranges exist for loopback, link-local, documentation, multicast, benchmarking, and other purposes.
 
 ### Reserved Private Ranges:
 - **Class A Private Range:** `10.0.0.0` to `10.255.255.255`
