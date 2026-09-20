@@ -18,13 +18,13 @@ As we learned yesterday, encryption is a Two-Way (reversible) process.
 
 ## Hashing (One-Way Process)
 
-Hashing is a One-Way (irreversible) mathematical function. Once data becomes a hash, there is NO reverse gear!
+Hash functions are designed to be one-way in the practical sense: there is no general inverse operation that efficiently recovers the original input from a hash. However, an attacker can guess candidate inputs and compare their hashes, which is why password hashing must use a password-specific, deliberately slow scheme.
 
-**How it Works:** It takes data of any size (even one character or a whole book) and turns it into a fixed-length weird code called a Hash Value. NO software or hacker in the world can reverse this hash to get the original password.
+**How it Works:** A cryptographic hash maps input data to a fixed-length digest. The original input is not recoverable through a simple reverse operation, but weak or predictable passwords can sometimes be recovered by guessing and comparing candidates. Hashing therefore does not make a weak password safe by itself.
 
-**Where is it used?** To store passwords safely in databases and to check data Integrity (to see if data was tampered with).
+**Where is it used?** Hashes are used for integrity checks, fingerprints, signatures, and many other purposes. Passwords should normally be stored with password-hashing/KDF algorithms such as Argon2id, scrypt, or bcrypt rather than plain SHA-256.
 
-**Famous Algorithms:** SHA-256, MD5, SHA-512.
+**Examples:** SHA-256 and SHA-512 are general-purpose cryptographic hashes. MD5 is considered broken for collision resistance and should not be selected for new security designs.
 
 ---
 
@@ -32,9 +32,9 @@ Hashing is a One-Way (irreversible) mathematical function. Once data becomes a h
 
 When you create a new account on a website and set password as `Bhai@123`:
 
-**1.** The website does NOT save your real password. It puts `Bhai@123` into a hashing algorithm (e.g., SHA-256).
+**1.** The website should not save your plaintext password. It should process the password with a password-hashing function such as Argon2id, scrypt, or bcrypt, using a unique salt.
 
-**2.** A fixed hash is created, like: `5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8`
+**2.** The resulting password-hash record includes the algorithm parameters and salt so the server can verify future login attempts without storing the plaintext password.
 
 **3.** This hash value is stored in the website's database.
 
@@ -72,8 +72,8 @@ If two different passwords produce the same hash, that's a Hash Collision. The h
 |---------|-----------|---------|
 | **Direction** | Two-Way (Reversible) | One-Way (Irreversible) |
 | **Key Needed** | Yes (Key required) | No Key |
-| **Can be reversed?** | Yes (with correct key) | No (mathematically impossible) |
-| **Used For** | VPN, Chats, Files | Passwords, Integrity Check |
+| **Can be reversed?** | Yes (with correct key) | No efficient general inverse; guessing may recover weak inputs |
+| **Used For** | VPN, Chats, Files | Password storage/KDFs, Integrity checks, fingerprints |
 | **Example** | AES, RSA | SHA-256, MD5 |
 
 ---
@@ -81,7 +81,7 @@ If two different passwords produce the same hash, that's a Hash Collision. The h
 ## MUST MEMORIZE
 
 - **Encryption:** Two-Way process (Data can be opened, key needed).
-- **Hashing:** One-Way process (Data can never be reversed, no key).
+- **Hashing:** Designed as a one-way process; weak inputs can still be guessed and matched, so secure password storage requires a password-specific KDF and salt.
 - **SHA-256 / MD5:** Famous hashing functions.
 - **Hash Cracking:** Brute force / Dictionary attack (making hashes and matching).
 - **Hash Collision:** Two different passwords producing the same hash (almost impossible in modern systems).
@@ -115,7 +115,7 @@ Today I learned the critical difference between Encryption and Hashing:
 - **Encryption** is Two-Way (can be reversed with a key)
 - **Hashing** is One-Way (cannot be reversed, no key)
 
-The key insight is that websites store **hashes of passwords**, not the passwords themselves. This protects users even if the database is stolen.
+The key insight is that websites should store **password-hash records**, not plaintext passwords. A database breach can still be dangerous, because attackers may attempt offline guessing; unique salts and slow password-hashing functions make that substantially harder.
 
 I also learned about **Hash Collisions** — theoretically, two different passwords could produce the same hash. But modern algorithms like SHA-256 make this practically impossible.
 
