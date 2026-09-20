@@ -30,9 +30,9 @@ If you type `tracert google.com`, it shows you all the routers (Hops) your packe
 
 ICMP is a very simple and honest protocol, but hackers exploit this honest protocol to launch dangerous attacks!
 
-### 1. The Attack: Ping of Death (Oversized Payload)
+### 1. Historical Attack: Ping of Death
 
-**Hacker's Logic:** Computers have a limit (maximum 65,535 bytes) for receiving network packets. The hacker creates a ping packet that is larger than this limit. When this oversized, malicious packet reaches the target computer, its brain freezes and the computer crashes (Blue Screen of Death or Reboot)!
+**Security note:** The classic Ping of Death involved malformed or oversized IP packets that could trigger vulnerabilities in old operating systems and network stacks. Modern systems generally handle such packets safely, so this is primarily a historical vulnerability class rather than a normal way to crash current systems.
 
 ### 2. The Attack: ICMP Smurf Attack (Amplified Reflection)
 
@@ -40,9 +40,9 @@ ICMP is a very simple and honest protocol, but hackers exploit this honest proto
 
 ### 3. The Defense: ICMP Blocking (Stealth Mode)
 
-**Defensive Action:** The admin simply adds a rule in the firewall: "Block ICMP Echo Requests".
+**Defensive Action:** An administrator may restrict ICMP Echo Requests at a firewall, depending on the network's requirements.
 
-**The Impact:** When a hacker scans or pings, the firewall doesn't respond at all. The hacker thinks the computer is offline (dead), but it's actually working silently in the background! This is called Stealth Mode.
+**The Impact:** A failed ping does not prove that a host is offline. Firewalls, routing policy, rate limits, host configuration, and network filtering can all prevent an Echo Reply. "Stealth Mode" is not a universal technical state.
 
 ---
 
@@ -52,7 +52,7 @@ When an admin blocks ping with a firewall, Nmap normally sends a ping first, and
 
 **Hacker's Logic:** To break this trick, hackers use a special switch in Nmap: `-Pn`.
 
-This `-Pn` means: "Hey Nmap, no need to check ping (No Ping Check), start scanning all ports directly, no matter how much the firewall acts up!" This command appears in every elite hacker's scans!
+This `-Pn` option tells Nmap to skip host-discovery assumptions and treat hosts as online before continuing with the requested scan. It can be useful in authorized testing when ICMP or other discovery probes are filtered. It does not bypass a firewall by itself.
 
 ---
 
